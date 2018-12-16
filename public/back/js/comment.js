@@ -14,6 +14,12 @@
 
 // .ajaxStart()  当第一个ajax发送时调用
 // .ajaxStop() 当全部的ajax请求完成时调用
+NProgress.start();
+
+
+setTimeout(function(){
+    NProgress.done()
+},5000)
 
 $(document).ajaxStart(function(){
     NProgress.start() 
@@ -22,7 +28,7 @@ $(document).ajaxStart(function(){
 $(document).ajaxStop(function(){
     setTimeout(function(){
         NProgress.done()
-    },500)
+    },5000)
 });
 
 
