@@ -28,7 +28,7 @@ $(document).ajaxStart(function(){
 $(document).ajaxStop(function(){
     setTimeout(function(){
         NProgress.done()
-    },5000)
+    },1000)
 });
 
 

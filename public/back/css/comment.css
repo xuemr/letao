@@ -73,7 +73,10 @@ ul {
     display: block;
     padding-left: 20px;
 }
-
+.lt_aside .nav a.current {
+    background-color: #1D1F21;
+    border-left: 3px solid #006699;
+  }
 
 .lt_main{
     height: 2000px;
@@ -112,4 +115,17 @@ ul {
 }
 
 
+.ml_20{
+    margin-left: 20px;
+}
 
+.mt_20{
+    margin-top: 20px;
+}
+
+
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
