@@ -1,0 +1,44 @@
+.lt_cagetory_left{
+    float: left;
+    width: 90px;
+    height: 100%;
+    position: relative;
+    /* z-index: 999; */
+
+}
+.lt_cagetory_left ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:#E3E4E5;
+    color: #666;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lt_cagetory_left ul li a.current{
+    background-color: #fff;
+    border-right: none;
+}
+
+
+.lt_cagetory_rigth{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.lt_cagetory_right li{
+    float: left;
+    width: 33.33%;
+}
+.lt_cagetory_rigth li img{
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+}
+.lt_cagetory_right li p{
+    text-align: center;
+}
+.nomore{
+    padding: 10px;
+}
